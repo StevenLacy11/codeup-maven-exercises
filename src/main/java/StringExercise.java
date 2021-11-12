@@ -11,7 +11,7 @@ class StringExercise {
 		System.out.println("You Entered: " + input);
 
 		if (StringUtils.isNumeric(input)) {
-			System.out.print(input + " is a number");
+			System.out.print(input + " is a number\n");
 		} else {
 			System.out.println(input + " is not a number");
 		}
